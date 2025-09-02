@@ -6,11 +6,17 @@ It supports user registration, login, and authentication with email and password
 🚀 Features
 
 ✅ User registration with email validation
+
 ✅ Secure login with hashed passwords
+
 ✅ Password rules: must contain uppercase, lowercase, number, special character
+
 ✅ JWT-based authentication
+
 ✅ MySQL database integration with SQLAlchemy
+
 ✅ REST API backend (Flask)
+
 ✅ React frontend with styled login & signup pages
 
 
@@ -21,26 +27,8 @@ Backend: Flask (Python)
 Database: MySQL with SQLAlchemy ORM
 Authentication: Werkzeug (password hashing), JWT
 
-
-📂 Project Structure
-Login-System-with-Authentication/
-│
-├── backend/
-│   ├── app.py            # Flask entry point
-│   ├── model.py          # SQLAlchemy models
-│   ├── views.py          # Routes for login/register
-│   ├── config.py
-│
-├── frontend/
-│   ├── src/
-│   │   ├── components/   # React components
-│   │   ├── styles/       # CSS files
-│   │   └── App.jsx
-│   ├── package.json      # Node dependencies
-│
-└── README.md
-
 ⚙️ Installation & Setup
+
 1. Clone the repo
 git clone https://github.com/Amruthabt64/Login-System-with-Authentication.git
 cd Login-System-with-Authentication
@@ -57,12 +45,15 @@ npm run dev
 📝 API Endpoints
 
 POST /register → Register a new user
+
 POST /login → Login user (returns token)
 
 🔒 Security
 
 Passwords are hashed before storing in DB
+
 JWT-based authentication
+
 Validations:
 Email must be valid (user@example.com)
 Password must contain:
