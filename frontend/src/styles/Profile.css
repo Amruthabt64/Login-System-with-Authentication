@@ -1,0 +1,21 @@
+.profile-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center; 
+  height: 100vh; 
+  background: linear-gradient(135deg, #1ba9eb, rgb(230, 180, 188),rgb(236, 191, 198), rgb(27, 27, 156));
+}
+.profile-button {
+  padding: 8px 16px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 6px;
+  background-color: teal;
+  color: white;
+  cursor: pointer;
+}
+.profile-button:hover {
+  background-color: darkcyan;
+}

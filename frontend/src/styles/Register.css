@@ -1,0 +1,29 @@
+.register-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center; 
+  height: 100vh; 
+  background: linear-gradient(135deg, #c2e9fb, pink, rgb(89, 89, 172));
+}
+
+.register-input {
+  width: 250px;
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+.register-button {
+  padding: 8px 16px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 6px;
+  background-color: teal;
+  color: white;
+  cursor: pointer;
+}
+.register-button:hover {
+  background-color: darkcyan;
+}
